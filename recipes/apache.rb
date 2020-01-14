@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: web-app
+# Cookbook Name:: tw-web-app
 # Recipe:: apache
 #
 #
