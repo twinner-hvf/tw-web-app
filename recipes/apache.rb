@@ -25,3 +25,10 @@ end
 #  action :delete
 #end
 
+cookbook_file '/var/www/html/rean-logo.png' do
+  source 'rean-logo.png'
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
+end
