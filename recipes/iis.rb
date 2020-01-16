@@ -7,7 +7,7 @@
 windows_feature 'Web-Server' do
   all true
   action :install
-  install_method :windows_feature_powershell
+#  install_method :windows_feature_powershell
 end
 
 cookbook_file 'C:\inetpub\wwwroot\index.html' do
