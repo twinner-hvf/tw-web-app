@@ -4,7 +4,7 @@
 #
 #
 
-windows_feature 'Web-Server' do
+windows_feature 'IIS-WebServerRole' do
   all true
   action :install
 #  install_method :windows_feature_powershell
